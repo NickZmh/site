@@ -1,0 +1,338 @@
+	* {
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+}
+	header {
+		padding: 0;
+		margin: 0;
+		background-color: #DBD2D2;
+}
+	.pic_1 {
+		margin: 0;
+		padding: 0;
+}
+	.pic_1 img {
+		max-width: 25%;
+}
+	.pic_2 {
+		padding: 0;
+	}
+	.pic_2 img {
+		max-width: 25%;
+		padding: 0;
+		margin: 0;
+}
+	.phones {
+		padding: 0;
+		margin: 0;
+		border-radius: 2px 2px 2px 2px;
+}
+	.phones:hover {
+		transition: 0.5s;
+		box-shadow: 0px 0px 3px 3px #414141;
+}
+	.logo img {
+		margin: 0;
+		width: 60px;
+		height: 60px;
+		float: left;
+		position: absolute;
+		z-index: 1;
+}
+	.logo img:hover {
+		width: 70px;
+		height: 70px;
+		margin-left: 538px;
+		transition: 0.5s;
+		display: block;
+}
+.kievstar_logo img{
+	margin-left: 10px;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.kievstar_number {
+	position: absolute;
+	top: 8px;
+	margin-left: 50px;
+	text-align: justify;
+	text-shadow: 1px 1px 5px;
+}
+.kievstar_number:hover {
+	transition: 0.7s all;
+	text-decoration: underline;
+	color: #2898CF;
+	text-shadow: 1px 1px 1px black;
+}
+.life_cell_logo img{
+	position: absolute;
+	top: 37px;
+	left: 15px;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.life_number {
+	position: absolute;
+	top: 39px;
+	margin-left: 50px;
+	text-align: justify;
+	text-shadow: 1px 1px 5px;
+}
+.life_number:hover {
+	transition: 0.5s all;
+	text-decoration: underline;
+	color: #FFC200;
+	text-shadow: 1px 1px 1px black;
+}
+.about { 			/*Назва сайту*/
+	padding: 0px;
+	margin-top: 0px;
+	float: left;
+}
+
+.search {
+	border-bottom: 0px;
+	box-shadow: 0px 0px 0px 2px #fafafa;
+	margin-top: 50px;
+	margin-left: 1095px;
+	width: 173px;
+	float: left;
+}
+.search:hover {
+	padding: 10px;
+	box-shadow: 1px 1px 10px 3px #DBD2D2;
+	border-radius: 5px 5px 5px 5px;
+	transition: 0.5s;
+}
+	
+#about_goods{ /*site name*/
+	font-family:"abril-fatface";
+	margin-top: 25px;
+	margin-left: 125px;
+	float: left;
+	font-weight: 800;
+	text-shadow: 1px 1px 2px black;
+	font-size: 3.0em;
+	font-style: italic;
+	color: #6C6C6C;
+	z-index: 1;
+	position: absolute;
+}
+#about_goods:hover{ /*site name*/
+	transition: 0.5s;
+	text-shadow: 1px 2px 5px;
+}
+#about_furniture{ /*site name*/
+	margin-top: 40px;
+	float: left;
+	margin-left: 300px;
+	text-shadow: 1px 1px 2px black;
+	font-weight: 800;
+	font-size: 2.5em;
+	font-style: italic;
+	color: #6C6C6C;
+	position: absolute;
+}
+#about_furniture:hover  { /*site name*/
+	transition: 0.5s;
+	text-shadow: 1px 2px 5px;
+}
+.clear {
+	clear: left;
+}
+
+.line { 
+	position: absolute;
+	background-color: #4A2021; 
+	box-shadow: 0px 1px 5px 0px;
+	top: 117px;
+	width: 100%;
+	height: 2px;
+}
+
+.header_lower_section {
+	width: 100%;
+	height: 27px;
+	background-color:#414141;
+	margin-top: -33px;
+	float: left;
+	z-index: -10;
+}
+/*drop_down*/
+ul {	/*drop_down*/
+    width: 180px; 
+    list-style: none;
+	margin-left: 100px;
+    font-family: Georgia, monospace, sans-serif; 
+	font-weight: 900;
+    font-size: 10pt;
+	float: left;
+	text-align: center;
+   } 
+li ul {		/*drop_down*/
+    position: absolute;
+    display: none; 
+	z-index: 1;
+	text-align: center;
+   }
+li a {	/*drop_down*/
+    display: block; 
+    padding: 6px; 
+    text-decoration: none; 
+    color: #fafafa; 
+    background-color: #414141;
+	transition: 0.5s all;
+   }
+li a:hover {	/*drop_down*/
+    color: #4A2021;
+    background-color: #DBD2D2;
+	padding: 10px;
+	margin-right: -10px;
+	font-size: 12pt;
+	box-shadow: 1px 1px 2px silver ;
+   }
+li:hover ul {	/*drop_down*/
+	margin-left: 0px;
+    display: block;
+   }
+.brd {	/*drop_down*/
+    border-bottom: 0px solid #666; 
+   }
+.article_spoiler_1 { /*block_furniture*/
+	width: 130px;
+	height: 35px;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-shadow: 1px 1px 2px black;
+	color: #fafafa;
+	border-radius: 2px 2px 2px 2px;
+	float: left;
+}
+
+.article_spoiler_1:hover { /*block_furniture*/
+	width: 130px;
+	height: 30px;
+	font-size: 17pt;
+	color: #4A2021;
+	transition: 0.5s;
+	margin-left: 10px;
+	padding-top: 9px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 9px;
+	text-align: center;
+	float: left;
+	background-color: #DBD2D2;
+	border-radius: 4px 4px 4px 4px;
+}
+article, aside {
+	 border-radius: 5px;
+	 border: 1px  #4A2021;
+	 box-sizing: border-box;
+}
+
+article {
+	height: 250px;
+	width: 170px;
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-right: 3%;
+	padding: 10px;
+	box-shadow: 0 0 10px;
+	background-size: 250px 250px;
+	background-position: -30px;
+	font-family: New Century Schoolbook, serif;
+	font-size: 1.2em;
+	text-align: justify;
+	position: absolute;
+	float: left;
+	z-index: -1
+}
+
+article:hover {
+	height: 250px;
+	width: 210px;
+	float: left;
+}
+aside {
+	top: 400px;
+	background: red;
+	width: 30%;
+	left: 520px;
+	box-shadow: 0 0 10px; 
+	position: absolute;
+	float: left;
+}
+
+.video_block {
+	display: none;
+	width: 520px;
+	heigth: 520px;
+	margin-top: 150px;
+	margin-left: 800px;
+	border-radius: 5px;
+	border: 1px #4A2021;
+	box-shadow: 0 0 10px;
+	position: absolute;
+	float: left;
+}
+.video {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #8C6F6F;
+	float: left;
+}
+
+#style_1 {
+	color: #096319;
+	font-family: Times New Roman;
+	font-size: 1.8em;
+	text-align: center;
+}
+.mebly {
+	width: 250px;
+	height: 250px;
+	margin-top: -100px;
+	margin-left: 80px;
+	background-size: 250px 250px;
+	background-position: 0px;
+	box-shadow: 1px 2px 5px black;
+	float: left;
+	position: absolute;
+	}
+.mebly:hover {
+	width: 300px;
+	height: 300px;
+	background-size: 300px 300px;
+	transition: 0.5s all;
+}
+
+
+#style_5 {
+	margin-top: -20px;
+	padding: 8px;
+}
+
+#span_1 {
+	color: #0D581D;
+	font-size: 30px;
+}
+footer {
+	 width: calc(100% - 30px);
+	 height: 46px;
+	 margin-top: 700px; 
+	 background-size: 100px;
+	 background-color: #DBD2D2;
+	 border-top: 10px solid #4A2021;
+	 border-bottom: 10px solid #4A2021;
+	 padding: 15px;
+	 font-size: 1.2em;
+	 color: #333;
+	 float: left;
+}
